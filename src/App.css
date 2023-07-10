@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.App .Navbar {
+  padding: 20px;
+}
+
+.App h3 {
+  margin: 20px;
+}
+
+.Upload-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 500px;
+  min-height:400px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.Upload-container img {
+  max-width: 300px;
+  margin: 20px;
+}
+
+.Upload-container button {
+  display: block;
+}
+
+p.text-danger {
+  font-size: 14px;
+  margin-left: 5px;
+}
