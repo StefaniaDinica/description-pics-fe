@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/upload-picture' element={<UploadPicture />} />
-        <Route path='/scan-picture' element={<ScanPicture />} />
+        <Route path='/scan-picture12' element={<ScanPicture />} />
         <Route path='*' element={<Page404 />} />
       </Routes>
     </Router>

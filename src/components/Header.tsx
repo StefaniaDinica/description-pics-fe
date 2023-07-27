@@ -5,14 +5,14 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="justify-content-center">
             <Container>
                 <Navbar.Brand href="/"><b>description.pics</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/upload-picture">Upload picture</Nav.Link>
-                        <Nav.Link href="/scan-picture">Get a description</Nav.Link>
+                        <Nav.Link href="/scan-picture">Get description</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

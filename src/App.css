@@ -42,29 +42,93 @@
 }
 
 .App h3 {
-  margin: 20px;
+  margin: 20px 0 30px 0;
 }
 
 .Upload-container {
   margin: 0 auto;
   padding: 20px;
   max-width: 500px;
-  min-height:400px;
-  background-color: lightgrey;
+  min-height: 400px;
   border-radius: 5px;
   text-align: left;
 }
 
 .Upload-container img {
   max-width: 300px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .Upload-container button {
   display: block;
+  margin-top: 20px;
+  background-color: #3f3f3f;
+  border: none;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.Upload-container button:disabled {
+  display: block;
+  margin-top: 20px;
+  background-color: #3f3f3f;
+  border: none;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.Upload-container button:hover {
+  display: block;
+  margin-top: 20px;
+  background-color: #3f3f3f;
+  border: none;
+  padding: 5px 10px;
+  font-weight: 600;
 }
 
 p.text-danger {
   font-size: 14px;
   margin-left: 5px;
+}
+
+body {
+  background-color: #efefef !important;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.spinner {
+  margin: 20px 0 0 20px;
+}
+
+.home-button {
+  margin: 100px 30px;
+  width: 250px;
+  background-color: #3f3f3f !important;
+  border: none !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  padding: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-button:first-of-type {
+    margin: 50px 0 10px 0;
+  }
+
+  .home-button {
+    margin: 10px 20px;
+  }
+}
+
+.main-section {
+  width: 60%;
+  margin: 50px auto 0 auto;
+}
+
+.navbar {
+  background-color: #A7BEAE;
 }
