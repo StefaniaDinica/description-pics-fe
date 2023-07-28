@@ -2,6 +2,8 @@
 
 This project aims to provide an interface for uploading images and descriptions in order to contribute to the creation of a dataset and also requesting a description for an image.
 
+The deployed web application can be viewed at https://description.pics.
+
 ## 1. Prerequisites
 [Install NodeJS and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
 
