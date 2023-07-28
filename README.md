@@ -4,6 +4,8 @@ This project aims to provide an interface for uploading images and descriptions 
 
 The deployed web application can be viewed at https://description.pics.
 
+Medium post: [Multi-label classification for generating images descriptions](https://medium.com/@stefaniadinica/multi-label-classification-for-generating-images-descriptions-8f362fe5dff8)
+
 ## 1. Prerequisites
 [Install NodeJS and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
 
